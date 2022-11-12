@@ -1,38 +1,561 @@
-.App {
+* {
+  margin: 0;
+  padding:0;
+}
+
+/* ____________Главная, Header, Footer_________________ */
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: black;
+}
+
+.link {
+  text-decoration: none;
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.link:hover {
+  color: #43FFD2;
+  text-decoration: underline;
+}
+
+footer {
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  background-color: black;
+}
+
+.logo-footer {
+  width: 40px;
+  margin-bottom: 30px;
+}
+
+.social-image {
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+}
+
+.column.list {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link-footer {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #43FFD2;
+  margin: 10px;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.link-footer:hover {
+  text-decoration: underline;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.requisites {
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding: 20px;
 }
+
+.logo {
+  margin-top: -15px;
+  margin-right: 100px;
+}
+
+.address {
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #43FFD2;
+}
+
+.address-text {
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cont {
+  background-image: linear-gradient(180deg, rgba(4, 10, 10, 0) 70%, #040A0A 100%), url('images/bg.png');
+  background-color: black;
+  background-size: cover;
+  padding: 100px 100px 300px 100px;
+}
+
+.lover-flower {
+  text-align: center;
+}
+
+.text {
+  font-family: 'Oswald', sans-serif;;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-top: 47px;
+}
+
+.view {
+  width: 220px;
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 16px;
+  margin-top: 47px;
+  background: #43FFD2;
+  color: #000000;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.view:hover {
+  background: #7D2253;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: url('images/Ellipse1.png') left no-repeat,
+  url('images/Ellipse2.png') right no-repeat,
+  url('images/bukets.png') top right no-repeat,
+  url('images/flowers.png') left no-repeat,
+  url('images/extra.png') bottom right no-repeat,
+  black;
+  height: 110vh;
+}
+
+h2 {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.describtion {
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-top: 10px;
+  width: 50%;
+  margin-left: 100px;
+  text-align: justify;
+}
+
+.describtion-two {
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+h3 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #43FFD2;
+}
+
+.item {
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+
+.grid {
+  position: relative;
+  min-height: 110vh;
+}
+
+.bouquets {
+  position: absolute;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+.dry {
+  width: 345px;
+  top: 50px;
+  left: 800px;
+}
+
+.fresh {
+  width: 440px;
+  top: 300px;
+  left: 50px;
+}
+
+.extra {
+  width: 440px;
+  top: 400px;
+  left: 700px;
+}
+
+.container-two {
+  position: relative;
+  background: url('images/Ellipse1.png') left no-repeat,
+  url('images/Ellipse2.png') right no-repeat,
+  black;
+}
+
+.fon {
+  position: absolute;
+  background-image: url('images/fon.png');
+  width: 800px;
+  height: 650px;
+  right: 0;
+}
+
+.name-two {
+  margin-left: 600px;
+}
+
+.describtion-three {
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+.carusel {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.carusel-image {
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  top:750px;
+  margin-bottom: 20px ;
+} 
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cart {
+  box-sizing: border-box;
+  width: 220px;
+  border: 0.5px solid #FFFFFF;
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 16px;
+  background: transparent;
+}
+
+.cart:hover {
+  background: #43FFD2;
+  color: #040A09;
+}
+
+.container-three {
+  background-color: black;
+  position: relative;
+  height: 120vh;
+}
+
+.fon2 {
+  position: absolute;
+  background-image: url('images/fon2.png');
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 800px;
+  left: 0;
+}
+
+.how-to-do-order {
+  width: 60%;
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 60px;
+}
+
+.step {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #D978AC;
+}
+
+.step-description {
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 250px;
+  padding: 12px 30px 50px 0;
+}
+
+.steps.contain {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  max-height: 550px;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 0;
+  border-right: 1px solid #D978AC;;
+}
+
+.lf {
+  position: absolute;
+  top: 620px;
+  left: 950px;
+}
+
+/* _______________Каталог___________________ */
+
+.container-catalog-title {
+  background: url('../public/images/astra-left.png') no-repeat, url('../public/images/astra-right.png') right no-repeat, url('../public/images/Ellipse45.png') repeat-y, url('../public/images/Ellipse29.png') top right repeat-y, black; ;
+  height: 80vh;
+  padding-top: 70px;
+}
+
+.catalog-title {
+  text-align: justify;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 820px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+.name-three {
+  margin-left: 250px;
+}
+
+.catalog-text {
+  width: 400px;
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 250px;
+  padding: 30px 0;
+}
+
+.catalog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-tag {
+  text-align: center;
+  box-sizing: border-box;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 40px;
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 10px;
+  padding: 11px 16px;
+}
+
+.container-catalog {
+  background: #000000;
+}
+
+.catalog-image {
+  max-width: 230px;
+  height: 300px;
+}
+
+.catalog-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 250px;
+  padding: 10px 30px;
+  margin: 0 auto;
+}
+
+.catalog-position {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* __________About_______________ */
+
+.about-container {
+  background: url('../public/images/flower-left.png') no-repeat, url('../public/images/flower-right.png') top right no-repeat, url('../public/images/Ellipse_gold.png') right no-repeat, url('../public/images/Ellipse-gold-center.png') bottom no-repeat, url('../public/images/Ellipse_gold-top.png') no-repeat, black; 
+  height:auto;
+}
+
+.about-title {
+  padding-top: 70px;
+}
+
+.about-text {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #43FFD2;
+}
+
+.both {
+  padding: 40px;
+  margin-left: 150px;
+}
+
+.comanda-title {
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.comanda-text {
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.about-position {
+  margin-left: 500px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 40px 20px;
+  border-radius: 20px;
+  width: 630px;
+  text-align: justify;
+}
+
