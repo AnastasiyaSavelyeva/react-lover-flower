@@ -1,4 +1,4 @@
-function Buttons({filteredFlowers}) {
+function Buttons({filteredFlower}) {
     return(
         <div>
             <div className="container-catalog-title">
@@ -8,13 +8,13 @@ function Buttons({filteredFlowers}) {
                     <h2 className="name-three">букетов</h2>
                     <p className="catalog-text">В нашем магазине самый большой выбор букетов для любых событий:</p>
                     <div className="catalog-tags">
-                        <button className="btn-tag" onClick= {()=>filteredFlowers('popular')}>Популярное</button>
-                        <button className="btn-tag" onClick= {()=>filteredFlowers('chamomile')}>Букеты из ромашек</button>
-                        <button className="btn-tag" onClick= {()=>filteredFlowers('chrysanthemums')}>Букеты из хризантем</button>
-                        <button className="btn-tag" onClick= {()=>filteredFlowers('roses')}>Букеты из роз</button>
-                        <button className="btn-tag" onClick= {()=>filteredFlowers('dried')}>Букеты из сухоцветов</button>
-                        <button className="btn-tag" onClick= {()=>filteredFlowers('mix')}>Смешанные букеты</button>
-                        <button className="btn-tag" onClick= {()=>filteredFlowers('indoor')}>Комнатные цветы в горшках</button>
+                        <button className="btn-tag" onClick= {()=>filteredFlower('popular')}>Популярное</button>
+                        <button className="btn-tag" onClick= {()=>filteredFlower('chamomile')}>Букеты из ромашек</button>
+                        <button className="btn-tag" onClick= {()=>filteredFlower('chrysanthemums')}>Букеты из хризантем</button>
+                        <button className="btn-tag" onClick= {()=>filteredFlower('roses')}>Букеты из роз</button>
+                        <button className="btn-tag" onClick= {()=>filteredFlower('dried')}>Букеты из сухоцветов</button>
+                        <button className="btn-tag" onClick= {()=>filteredFlower('mix')}>Смешанные букеты</button>
+                        <button className="btn-tag" onClick= {()=>filteredFlower('indoor')}>Комнатные цветы в горшках</button>
                     </div>
                 </div>
             </div>
