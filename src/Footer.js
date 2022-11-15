@@ -24,19 +24,19 @@ function Footer() {
                 <p className='address'>zakaz@loverflower.by</p>
                 <p className='address-text'>Доставка 24/7 по договоренности с оператором</p>
             </div>
-        <div>
-            <p className='address'>ул. Тимирязева 67</p>
-            <p className='address-text'>10:00 до 21:00 без выходных</p>
-        </div>
-        <div>
-            <p className='address'>+375 (29) 113-69-69</p>
-            <p className='address-text'>прием звонков круглосуточно</p>
-        </div>
-        <div>
-            <img className='social-image' src={insta} alt="insta"/>
-            <img className='social-image' src={whatsapp} alt="whatsapp"/>
-            <img className='social-image' src={phone} alt="phone"/>
-        </div>
+            <div>
+                <p className='address'>ул. Тимирязева 67</p>
+                <p className='address-text'>10:00 до 21:00 без выходных</p>
+            </div>
+            <div>
+                <p className='address'>+375 (29) 113-69-69</p>
+                <p className='address-text'>прием звонков круглосуточно</p>
+            </div>
+            <div>
+                <img className='social-image' src={insta} alt="insta"/>
+                <img className='social-image' src={whatsapp} alt="whatsapp"/>
+                <img className='social-image' src={phone} alt="phone"/>
+            </div>
         </div>
     </footer>
     )

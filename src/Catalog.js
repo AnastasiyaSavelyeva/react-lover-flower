@@ -2,28 +2,28 @@ import './App.css';
 import React from 'react';
 import Buttons from './Buttons';
 import { useState } from 'react';
-import { bouquets } from './data'
+import { dataTwo } from './data'
 
 function Catalog() {
 
-    const [bouquet, setBouquet] = useState(bouquets)
+    const [bouquet, setBouquet] = useState(dataTwo)
 
-    // const [showText, setShowText] = useState(false)
-
-    // const showTextClick = (element) => {
-    //     element.showMore = !element.showMore
-    //     setShowText(!showText)
-    // }
+    const [showText, setShowText] = useState(false)
 
     const chosenFlower = (category) => {
-        const newFlowers = bouquets.filter (element => 
+        const newFlowers = bouquet.filter (element => 
         element.category === category);
         setBouquet(newFlowers)
     }
+
+    const showTextClick = (element) => {
+        element.showMore = !element.showMore
+        setShowText(!showText)
+    }  
     
     return(<div>
         <div className="container-catalog">
-            <Buttons filteredFlowers={chosenFlower}/> 
+            <Buttons anyWord={chosenFlower}/> 
             <div className="main">
                 <div className='catalog-position'>
                     {bouquet.map (element => {
@@ -32,19 +32,17 @@ function Catalog() {
                                 <img className='catalog-image' src= {image} alt="flower"/>
                                 <h1 className='name'>{name}</h1>
                                 <h2 className='price'>{price} руб.</h2>
-                                {/* <div className="description">
-                                    <p className="description-item">{showMore ? description : description.substring(0,15)} 
-                                    <button onClick = {()=> showTextClick(element)}>{showMore ? "Подробнее" : "Скрыть"}</button></p>                             
-                                </div> */}
+                                <div className='buttons'>
+                                    <button className='more' onClick = {()=> showTextClick(element)}>{showMore ? description : description.substring(0,0)} {showMore ? '' : 'Состав'}</button>                         
+                                    <button className='cart'>в корзину</button>
+                                </div>
                             </div>
                         )
                     })}
                 </div>
             </div>
         </div>
-        
-        
-        </div>
+    </div>
     )
 }
 

@@ -23,7 +23,7 @@ export const data = [
     }
 ]
 
-export const bouquets = [
+export const dataTwo = [
     {
         id:1,
         name: 'воздушный поцелуй',
@@ -31,7 +31,7 @@ export const bouquets = [
         category: 'roses', 
         image: 'https://i.pinimg.com/originals/8d/54/33/8d5433a91c23066dffe7271c3b8b758a.jpg',
         showMore: false,
-        description: 'Состав: Гвоздика (Диантус), Леукодендрон, Леукоспермум (Нутан), Лотос, Роза. Завораживающая глубина ваших чувств передана нежными красками этого букета.Категории:  8 марта, Букет на 14 февраля, Букет на праздник, Букеты цветов на День рождения, Композиции из цветов, Композиции из цветов в коробке'
+        description: 'Состав: Роза (сорт Flammentanz). Высота букета 90-110 см'
     },
     {
         id:2,
@@ -40,7 +40,7 @@ export const bouquets = [
         category: 'chrysanthemums', 
         image: 'https://mykaleidoscope.ru/uploads/posts/2021-10/thumbs/1635280964_55-mykaleidoscope-ru-p-belaya-kustovaya-khrizantema-bakardi-tsvet-71.jpg',
         showMore: false,
-        description: 'Состав: Гвоздика (Диантус), Леукодендрон, Леукоспермум (Нутан), Лотос, Роза. Завораживающая глубина ваших чувств передана нежными красками этого букета.Категории:  8 марта, Букет на 14 февраля, Букет на праздник, Букеты цветов на День рождения, Композиции из цветов, Композиции из цветов в коробке'
+        description: 'Состав: Хризантема (сорт Delano). Высота букета 70-90 см'
     },
     {
         id:3,
@@ -49,6 +49,7 @@ export const bouquets = [
         category: 'mix', 
         image: 'https://mykaleidoscope.ru/uploads/posts/2021-10/thumbs/1635290306_31-mykaleidoscope-ru-p-dizainerskie-buketi-tsvetov-tsveti-34.jpg',
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:4,
@@ -57,6 +58,7 @@ export const bouquets = [
         category: 'chamomile', 
         image: 'https://flawery.ru/image/thumb_555/products/12467/32295_0.jpg',
         showMore: false,
+        description: 'Состав: Ромашка (сорт Мэй Куин). Высота букета 50-70 см' 
     },
     {
         id:5,
@@ -65,6 +67,7 @@ export const bouquets = [
         category: 'indoor', 
         image: 'https://flyshop.by/wp-content/uploads/2020/10/kakie-komnatnye-cvety-prinosyat-udachu-51.jpg',
         showMore: false,
+        description: 'Состав: Антуриум' 
     },
     {
         id:6,
@@ -73,6 +76,7 @@ export const bouquets = [
         category: 'popular', 
         image: require('./images/bouquets/1.png'),
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:7,
@@ -81,6 +85,7 @@ export const bouquets = [
         category: 'dried', 
         image: 'https://cs1.livemaster.ru/storage/9c/bc/dc4214d16ffe9640bea5ea6995r2--tsvety-i-floristika-buket-iz-suhotsvetov.jpg',
         showMore: false,
+        description: 'Состав: Гомфрена, Нигелла, Физалис' 
     },
     {
         id:8,
@@ -89,6 +94,7 @@ export const bouquets = [
         category: 'popular', 
         image: require('./images/bouquets/11.jpg'),
         showMore: false,
+        description: 'Состав: Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:9,
@@ -97,6 +103,7 @@ export const bouquets = [
         category: 'chamomile', 
         image: require('./images/bouquets/3.jpg'),
         showMore: false,
+        description: 'Состав: Ромашка (сорт Мэй Куин). Высота букета 50-70 см' 
     },
     {
         id:10,
@@ -105,6 +112,7 @@ export const bouquets = [
         category: 'mix', 
         image: 'https://i.pinimg.com/originals/8e/96/15/8e961513a414cbf97177ce7b027a108f.png',
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:11,
@@ -113,6 +121,7 @@ export const bouquets = [
         category: 'chrysanthemums', 
         image: 'https://odin-buket.ru/thumb/2/VmcfOZVNH7z0qbccN_lZIg/r/d/dim_96582.jpg',
         showMore: false,
+        description: 'Состав: Хризантема (сорт Delano). Высота букета 70-90 см' 
     },
     {
         id:12,
@@ -121,6 +130,7 @@ export const bouquets = [
         category: 'mix', 
         image: 'https://i.pinimg.com/originals/8e/96/15/8e961513a414cbf97177ce7b027a108f.png',
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:13,
@@ -129,6 +139,7 @@ export const bouquets = [
         category: 'indoor', 
         image: 'https://parnikpodsneznik.ru/wp-content/uploads/cziklamen-1.jpg',
         showMore: false,
+        description: 'Состав: Цикламен' 
     },
     {
         id:14,
@@ -137,6 +148,7 @@ export const bouquets = [
         category: 'chrysanthemums', 
         image: 'https://all-mongolia.ru/wp-content/uploads/1/c/9/1c9895651c193b33c53be4582941aacd.jpeg',
         showMore: false,
+        description: 'Состав: Хризантема (сорт Delano). Высота букета 70-90 см' 
     },
     {
         id:15,
@@ -145,6 +157,7 @@ export const bouquets = [
         category: 'roses', 
         image: 'https://cdn.megaflowers.ru/upload/thumbs/500-600/da/83/da83e48b34595938c561af862cae2d4a.jpg',
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz). Высота букета 90-110 см' 
     },
     {
         id:16,
@@ -153,6 +166,7 @@ export const bouquets = [
         category: 'popular', 
         image: require('./images/bouquets/6.jpg'),
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:17,
@@ -161,6 +175,7 @@ export const bouquets = [
         category: 'mix', 
         image: 'https://dmitrov.flor-world.ru/wa-data/public/shop/products/60/21/2160/images/7555/7555.750.jpg',
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:18,
@@ -169,6 +184,7 @@ export const bouquets = [
         category: 'chrysanthemums', 
         image: 'https://floristan.ru/storage/bouquets_images/rtJpLkV.jpeg',
         showMore: false,
+        description: 'Состав: Хризантема (сорт Delano). Высота букета 70-90 см' 
     },
     {
         id:19,
@@ -177,6 +193,7 @@ export const bouquets = [
         category: 'chamomile', 
         image: 'https://cvetokbrest.by/wp-content/uploads/2021/04/букет-из-ромашек-2-thegem-product-catalog.jpg',
         showMore: false,
+        description: 'Состав: Ромашка (сорт Мэй Куин). Высота букета 50-70 см' 
     },
     {
         id:20,
@@ -185,6 +202,7 @@ export const bouquets = [
         category: 'mix', 
         image: 'https://mykaleidoscope.ru/uploads/posts/2021-10/thumbs/1635295023_10-mykaleidoscope-ru-p-buketnaya-orkhideya-tsveti-10.jpg',
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:21,
@@ -193,6 +211,7 @@ export const bouquets = [
         category: 'chamomile', 
         image: 'https://krot.info/uploads/posts/2022-02/thumbs/1645785896_57-krot-info-p-zheltie-romashki-buket-tsveti-krasivo-foto-61.jpg',
         showMore: false,
+        description: 'Состав: Ромашка (сорт Мэй Куин). Высота букета 50-70 см' 
     },
     {
         id:22,
@@ -201,6 +220,7 @@ export const bouquets = [
         category: 'indoor', 
         image: 'https://floristcenter.ru/image/cache/catalog/vgorshkah/Spatifillum9-543x543.jpg',
         showMore: false,
+        description: 'Состав: спатифиллум' 
     },
     {
         id:23,
@@ -209,6 +229,7 @@ export const bouquets = [
         category: 'roses', 
         image: 'https://flordoranzh.ru/wp-content/uploads/2017/11/1502545568_24113957.jpg',
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz). Высота букета 90-110 см' 
     },
     {
         id:24,
@@ -217,6 +238,7 @@ export const bouquets = [
         category: 'dried', 
         image: 'https://sun9-79.userapi.com/impg/zQlMFluMLdcsy-bNcpP2pSaHIO8BID69N7iGWg/eeeYVLhAY-g.jpg?size=483x604&quality=96&sign=51277b1cfba67c1d60352f7a6e6668e3&type=album',
         showMore: false,
+        description: 'Состав: Гомфрена, Нигелла, Физалис' 
     },
     {
         id:25,
@@ -225,6 +247,7 @@ export const bouquets = [
         category: 'indoor', 
         image: 'https://sunflor.ru/wa-data/public/shop/products/57/04/457/images/7262/7262.750x0.jpg',
         showMore: false,
+        description: 'Состав: Роза' 
     },
     {
         id:26,
@@ -233,6 +256,7 @@ export const bouquets = [
         category: 'popular', 
         image: require('./images/bouquets/2.jpg'),
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:27,
@@ -241,6 +265,7 @@ export const bouquets = [
         category: 'mix', 
         image: 'https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkEXEnxJd4iwwDFqdQ0EvriaaKTM5SRkZCeTgDn6uOyic',
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:28,
@@ -249,6 +274,7 @@ export const bouquets = [
         category: 'dried', 
         image: 'https://krot.info/uploads/posts/2021-11/thumbs/1636666406_142-krot-info-p-svadebnii-buket-iz-sukhotsvetov-krasivie-o-146.jpg',
         showMore: false,
+        description: 'Состав: Гомфрена, Нигелла, Физалис' 
     },
     {
         id:29,
@@ -257,6 +283,7 @@ export const bouquets = [
         category: 'roses', 
         image: 'https://cdn.megaflowers.ru/upload/thumbs/500-600/da/83/da83e48b34595938c561af862cae2d4a.jpg',
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz). Высота букета 90-110 см' 
     },
     {
         id:30,
@@ -265,6 +292,7 @@ export const bouquets = [
         category: 'indoor', 
         image: 'https://sunflor.ru/wa-data/public/shop/products/53/00/53/images/7094/7094.600x0.jpg',
         showMore: false,
+        description: 'Состав: гардения' 
     },
     {
         id:31,
@@ -273,6 +301,7 @@ export const bouquets = [
         category: 'popular', 
         image: require('./images/bouquets/5.jpg'),
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
     {
         id:32,
@@ -281,6 +310,7 @@ export const bouquets = [
         category: 'mix', 
         image: 'https://flowershopcats.ru/d/korzina_s_antirinumom.jpg',
         showMore: false,
+        description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     }
 
 ]

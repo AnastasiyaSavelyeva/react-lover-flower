@@ -39,7 +39,6 @@ footer {
 
 .logo-footer {
   width: 40px;
-  margin-bottom: 30px;
 }
 
 .social-image {
@@ -49,7 +48,7 @@ footer {
 }
 
 .column.list {
-  text-align: center;
+  margin-left: 100px;
 }
 
 .link-footer {
@@ -60,7 +59,7 @@ footer {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #43FFD2;
-  margin: 10px;
+  margin: 7px;
   text-decoration: none;
 }
 
@@ -70,9 +69,10 @@ footer {
 }
 
 .requisites {
+  max-width: 350px;
   font-family: 'Oswald';
   font-weight: 300;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 18px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ footer {
 .column {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   width: 30%;
   padding: 20px;
 }
@@ -381,7 +381,7 @@ h3 {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .step {
@@ -414,7 +414,7 @@ h3 {
   flex-wrap: wrap;
   position: absolute;
   right: 0;
-  border-right: 1px solid #D978AC;;
+  border-right: 1px solid #D978AC;
 }
 
 .lf {
@@ -426,10 +426,11 @@ h3 {
 /* _______________Каталог___________________ */
 
 .container-catalog-title {
-  background: url('../public/images/astra-left.png') no-repeat, url('../public/images/astra-right.png') right no-repeat, url('../public/images/Ellipse45.png') repeat-y, url('../public/images/Ellipse29.png') top right repeat-y, black; ;
-  height: 80vh;
+  background: url('../public/images/astra-left.png') no-repeat, url('../public/images/astra-right.png') right top no-repeat, url('../public/images/Ellipse45.png') repeat-y, url('../public/images/Ellipse29.png') top right repeat-y, black; ;
+  height: 100vh;
   padding-top: 70px;
 }
+
 
 .catalog-title {
   text-align: justify;
@@ -482,37 +483,33 @@ h3 {
   cursor: pointer;
 }
 
+.btn-tag:hover {
+  background-color: #43FFD2;
+  color: #000000;
+}
+
 .container-catalog {
-  background: #000000;
+  background: url('../public/images/Ellipse45.png') repeat-y, url('../public/images/Ellipse34.png') right, black;
 }
 
 .catalog-image {
-  max-width: 230px;
-  height: 300px;
+  width: 220px;
+  height: 280px;
 }
 
 .catalog-item {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  align-items: center;
   max-width: 250px;
-  padding: 10px 30px;
+  padding: 20px 10px;
   margin: 0 auto;
 }
 
 .catalog-position {
   display: flex;
   flex-wrap: wrap;
-}
-
-.description-item {
-  font-family: 'Oswald';
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #FFFFFF;
 }
 
 .category-item {
@@ -525,22 +522,39 @@ h3 {
   margin-top: 10px;
 }
 
-
-.description-item {
-  background: white;
-  border: none;
-  font-size: 18px;
-  color: #0071c2;
+.more {
+  width: 220px;
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 16px;
+  margin-top: 47px;
+  background: transparent;
+  color: #D978AC;
+  border: 1px solid #D978AC;
+  text-decoration: none;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 10px;
 }
 
+.more:hover {
+  background: #D978AC;
+  color: white;
+}
 
-
+.buttons {
+  text-align: center;
+}
 
 /* __________About_______________ */
 
 .about-container {
-  background: url('../public/images/flower-left.png') no-repeat, url('../public/images/flower-right.png') top right no-repeat, url('../public/images/Ellipse_gold.png') right no-repeat, url('../public/images/Ellipse-gold-center.png') bottom no-repeat, url('../public/images/Ellipse_gold-top.png') no-repeat, black; 
-  height:auto;
+  background: url('../public/images/flower-left.png') no-repeat, url('../public/images/flower-right.png') top right no-repeat, url('../public/images/Ellipse_gold.png') top no-repeat, url('../public/images/Ellipse_gold-top.png') no-repeat, url('../public/images/astra-bottom.png') right bottom no-repeat, url('../public/images/Ellipse41.png') no-repeat right, url('../public/images/Ellipse43.png') no-repeat bottom left, black; 
+  height: 280vh;
 }
 
 .about-title {
@@ -555,6 +569,7 @@ h3 {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #43FFD2;
+  margin-bottom: 20px;
 }
 
 .both {
@@ -590,5 +605,449 @@ h3 {
   border-radius: 20px;
   width: 630px;
   text-align: justify;
+  margin-bottom: 100px;
 }
 
+.about-garant {
+  margin-left: 200px;
+}
+
+.about-garant-description {
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  max-width: 825px;
+  margin-bottom: 100px;
+}
+
+.about-text-order {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #43FFD2;
+  margin-bottom: 20px;
+  max-width: 695px;
+}
+
+.about-order-list {
+  margin-left: 200px;
+  margin-bottom: 162px;
+}
+
+.about-item {
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-left: 25px;
+}
+
+.about-big-words {
+  font-family: 'Cormorant';
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  max-width: 1150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 800px) {
+
+  .cont {
+    background-size: contain;
+    padding: 50px 0 150px 0;
+    background-position: center;
+    width: 100%;
+  }
+
+  .lover-image {
+    width: 500px;
+  }
+
+  .bouquets {
+    text-align: center;
+  }
+
+  .dry {
+    width: 500px;
+    top: 150px;
+    left: 80px;
+  }
+
+  .fresh {
+    width: 500px;
+    top: 410px;
+    left: 80px;
+  }
+
+  .extra {
+    width: 500px;
+    top: 760px;
+    left: 80px;
+  }
+
+  .item {
+    list-style: none;
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  .grid h2 {
+    display: inline-block;
+    margin-top: 30px;
+  }
+
+  .describtion {
+    display: none;
+  }
+
+  .describtion-two {
+    display: none;
+  }
+
+  .name-two {
+    margin-left: 20px;
+  }
+
+  .fon {
+    height: 600px;
+  }
+  
+  .how-to-do-order {
+    padding-top: 0;
+  }
+
+  .steps.contain {
+    width: 100%;
+    max-height: 1000px;
+    left: 200px;
+  }
+
+  .step-item {
+    padding: 0;
+    margin: 0;
+  }
+
+  .step-description {
+    width: 350px;
+  }
+
+  .lf {
+    left: 450px;
+    top: 1100px;
+  }
+
+  .about-container {
+    background: url('../public/images/flower-left.png') no-repeat,  url('../public/images/Ellipse_gold.png') top no-repeat, url('../public/images/Ellipse_gold-top.png') no-repeat, url('../public/images/astra-bottom.png') right bottom no-repeat, url('../public/images/Ellipse41.png') no-repeat right, url('../public/images/Ellipse43.png') no-repeat bottom left, black; 
+    height: auto;
+  }
+
+  .container-catalog-title {
+    height: 60vh;
+  }
+  
+
+  .about-position {
+    margin-left: 100px;
+    width: 530px;
+  }
+  
+  .about-garant {
+    margin-left: 100px;
+  }
+  
+  .about-garant-description {
+    max-width: 600px;
+  }
+  
+  .about-text-order {
+    max-width: 600px;
+  }
+  
+  .about-order-list {
+    margin-left: 100px;
+  }
+  
+  .about-big-words {
+    max-width: 600px;
+    margin-left: 100px;
+  }
+
+}
+
+@media all and (max-width:500px) {
+
+  .logo {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .footer {
+    padding: 5px;
+  }
+
+  .logo-footer {
+    width: 30px;
+  }
+  
+  .social-image {
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+  }
+  
+  .column.list {
+    margin-left: 10px;
+    padding: 10px;
+  }
+
+  .column {
+    padding: 10px;
+  }
+  
+  .link-footer {
+    font-size: 8px;
+    line-height: 1;
+    margin: 2px;
+  }
+
+  .requisites {
+    max-width: 100px;
+    font-size: 8px;
+    line-height: 1.5;
+  }
+  
+  .address {
+    font-size: 8px;
+    line-height: 1;
+  }
+  
+  .address-text {
+    font-size: 8px;
+    line-height: 15px;
+  }
+  
+  .link {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+
+  .cont {
+    background-repeat:no-repeat;
+    padding-bottom: 50px;
+    background-size: cover;
+  }
+
+  .lover-image {
+    width: 300px;
+  }
+
+  .container {
+    height: 130vh;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .bouquets {
+    padding: 5px;
+  }
+
+  .dry {
+    box-sizing: border-box;
+    width: 300px;
+    top: 150px;
+    left: 30px;
+  }
+
+  .fresh {
+    box-sizing: border-box;
+    width: 300px;
+    top: 370px;
+    left: 30px;
+  }
+
+  .extra {
+    box-sizing: border-box;
+    width: 300px;
+    top: 610px;
+    left: 30px;
+  }
+
+  .item {
+    font-size: 15px;
+    padding: 0;
+  }
+
+  .grid h2 {
+    margin-top: 10px;
+    font-size: 50px;
+    line-height: 1;
+  }
+
+  .name-two {
+    margin-left: 70px;
+    line-height: 1;
+  }
+
+  .carusel .price  {
+    display: inline;
+    font-size: 20px;
+  }
+
+  .fon2 {
+    width: 300px;
+  }
+  
+  .how-to-do-order {
+    padding-top: 50px;
+  }
+
+  .steps.contain {
+    width: 70%;
+    max-height: 700px;
+    left: 50px;
+    background: #00000077;
+    padding: 10px;
+  }
+
+  .step {
+    font-size: 20px;
+  }
+
+  .step-description {
+    width: 100px;
+    font-size: 10px;
+    padding: 10px 10px 10px 0 ;
+  }
+
+  .lf {
+    left: 200px;
+    top: 700px;
+    width: 100px;
+  }
+
+  .container-catalog-title {
+    height: 60vh;
+  }
+
+  .about-title {
+    font-size: 50px;
+  }
+  
+  .about-text {
+    font-size: 40px;
+  }
+  
+  .both {
+    padding: 40px;
+    margin-left: 120px;
+  }
+
+  .container-catalog-title {
+    background: url('../public/images/astra-left.png') 10px, no-repeat, url('../public/images/Ellipse45.png') repeat-y, url('../public/images/Ellipse29.png') top right repeat-y, black; ;
+    height: auto;
+    padding-top: 30px;
+  }
+  
+  .catalog-title {
+    padding: 10px;
+    max-width: 300px;
+    background: transparent;
+    backdrop-filter: none;
+  }
+  
+  .name-three-title {
+    font-size: 50px;
+    line-height: 1;
+  }
+
+  .name-three {
+    font-size: 50px;
+    margin-left: 50px;
+    line-height: 1;
+  }
+  
+  .catalog-text {
+    width: 220px;
+    margin-left: 50px;
+  }
+  
+  .btn-tag {
+    font-size: 10px;
+    line-height: 1;
+    margin: 5px;
+    padding: 10px 15px;
+  }
+  
+  .catalog-image {
+    width: 220px;
+    height: 280px;
+  }
+  
+  .comanda-text {
+    font-size: 15px;
+  }
+  
+  .about-position {
+    margin-left: 50px;
+    padding: 10px 5px;
+    width: 250px;
+  }
+  
+  .about-garant {
+    margin-left: 50px;
+  }
+  
+  .about-garant-description {
+    font-size: 15px;
+    max-width: 250px;
+  }
+
+  .about-order-list {
+    margin-left: 50px;
+  }
+  
+  .about-text-order {
+    font-size: 40px;
+    max-width: 250px;
+    line-height: 1;
+  }
+  
+  .about-item {
+    font-size: 15px;
+    margin-left: 25px;
+    max-width: 200px;
+    line-height: 1.5;
+  }
+  
+  .about-big-words {
+    font-size: 30px;
+    line-height: 1;
+    max-width: 300px;
+    margin-left: 50px;
+  }
+}
