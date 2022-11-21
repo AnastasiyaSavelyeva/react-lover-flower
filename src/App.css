@@ -308,6 +308,11 @@ h3 {
   margin-bottom: 10px;
 }
 
+.btn.left, .btn.right {
+  background-color: transparent;
+  border:0;
+}
+
 .name {
   font-family: 'Oswald';
   font-weight: 400;
@@ -427,7 +432,7 @@ h3 {
 
 .container-catalog-title {
   background: url('../public/images/astra-left.png') no-repeat, url('../public/images/astra-right.png') right top no-repeat, url('../public/images/Ellipse45.png') repeat-y, url('../public/images/Ellipse29.png') top right repeat-y, black; ;
-  height: 100vh;
+  height: 70vh;
   padding-top: 70px;
 }
 
@@ -498,6 +503,7 @@ h3 {
 }
 
 .catalog-item {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -510,6 +516,31 @@ h3 {
 .catalog-position {
   display: flex;
   flex-wrap: wrap;
+}
+
+.catalog-btn {
+  height: 280px;
+	width: 20px;
+	padding: 0;
+	position: absolute;
+	top: 20px;
+	border: none;
+	background-color: transparent;
+}
+
+.catalog-btn img {
+	margin: auto;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.btn-prev {
+  left:0;
+}
+
+.btn-next {
+  right: 0;
 }
 
 .category-item {

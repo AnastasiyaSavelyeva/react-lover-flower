@@ -2,11 +2,12 @@ import './App.css';
 import React from 'react';
 import Buttons from './Buttons';
 import { useState } from 'react';
-import { dataTwo } from './data'
+import { dataTwo } from './data';
+import Slides from './Slides';
 
 function Catalog() {
 
-    const [bouquet, setBouquet] = useState(dataTwo)
+    const [bouquet, setBouquet] = useState(dataTwo) 
 
     const [showText, setShowText] = useState(false)
 
@@ -20,16 +21,16 @@ function Catalog() {
         element.showMore = !element.showMore
         setShowText(!showText)
     }  
-    
+
     return(<div>
         <div className="container-catalog">
-            <Buttons anyWord={chosenFlower}/> 
+            <Buttons anyWord={chosenFlower} /> 
             <div className="main">
                 <div className='catalog-position'>
                     {bouquet.map (element => {
-                        const {id, name, price, image, description, showMore} = element;
+                        const {id, name, price, description, showMore} = element;
                         return(<div className='catalog-item' key={id}>
-                                <img className='catalog-image' src= {image} alt="flower"/>
+                                <Slides number={id}/>
                                 <h1 className='name'>{name}</h1>
                                 <h2 className='price'>{price} руб.</h2>
                                 <div className='buttons'>

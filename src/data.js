@@ -29,7 +29,7 @@ export const dataTwo = [
         name: 'воздушный поцелуй',
         price: 14500.00,
         category: 'roses', 
-        image: 'https://i.pinimg.com/originals/8d/54/33/8d5433a91c23066dffe7271c3b8b758a.jpg',
+        image: ['https://i.pinimg.com/originals/8d/54/33/8d5433a91c23066dffe7271c3b8b758a.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz). Высота букета 90-110 см'
     },
@@ -38,7 +38,7 @@ export const dataTwo = [
         name: 'очарование весны',
         price: 8100.00,
         category: 'chrysanthemums', 
-        image: 'https://mykaleidoscope.ru/uploads/posts/2021-10/thumbs/1635280964_55-mykaleidoscope-ru-p-belaya-kustovaya-khrizantema-bakardi-tsvet-71.jpg',
+        image: ['https://mykaleidoscope.ru/uploads/posts/2021-10/thumbs/1635280964_55-mykaleidoscope-ru-p-belaya-kustovaya-khrizantema-bakardi-tsvet-71.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Хризантема (сорт Delano). Высота букета 70-90 см'
     },
@@ -47,7 +47,7 @@ export const dataTwo = [
         name: 'лучший день',
         price: 11000.00,
         category: 'mix', 
-        image: 'https://mykaleidoscope.ru/uploads/posts/2021-10/thumbs/1635290306_31-mykaleidoscope-ru-p-dizainerskie-buketi-tsvetov-tsveti-34.jpg',
+        image: ['https://mykaleidoscope.ru/uploads/posts/2021-10/thumbs/1635290306_31-mykaleidoscope-ru-p-dizainerskie-buketi-tsvetov-tsveti-34.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -56,7 +56,7 @@ export const dataTwo = [
         name: 'романтика лета',
         price: 5500.00,
         category: 'chamomile', 
-        image: 'https://flawery.ru/image/thumb_555/products/12467/32295_0.jpg',
+        image: ['https://flawery.ru/image/thumb_555/products/12467/32295_0.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Ромашка (сорт Мэй Куин). Высота букета 50-70 см' 
     },
@@ -65,7 +65,7 @@ export const dataTwo = [
         name: 'антуриум',
         price: 7500.00,
         category: 'indoor', 
-        image: 'https://flyshop.by/wp-content/uploads/2020/10/kakie-komnatnye-cvety-prinosyat-udachu-51.jpg',
+        image: ['https://flyshop.by/wp-content/uploads/2020/10/kakie-komnatnye-cvety-prinosyat-udachu-51.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Антуриум' 
     },
@@ -74,7 +74,7 @@ export const dataTwo = [
         name: 'ласковый вечер',
         price: 10300.00,
         category: 'popular', 
-        image: require('./images/bouquets/1.png'),
+        image: [require('./images/bouquets/1.png'),'https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -83,7 +83,7 @@ export const dataTwo = [
         name: 'цветочная галактика',
         price: 5500.00,
         category: 'dried', 
-        image: 'https://cs1.livemaster.ru/storage/9c/bc/dc4214d16ffe9640bea5ea6995r2--tsvety-i-floristika-buket-iz-suhotsvetov.jpg',
+        image: ['https://cs1.livemaster.ru/storage/9c/bc/dc4214d16ffe9640bea5ea6995r2--tsvety-i-floristika-buket-iz-suhotsvetov.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Гомфрена, Нигелла, Физалис' 
     },
@@ -92,7 +92,7 @@ export const dataTwo = [
         name: 'нежное послание',
         price: 18700.00,
         category: 'popular', 
-        image: require('./images/bouquets/11.jpg'),
+        image: [require('./images/bouquets/11.jpg'),'https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -101,7 +101,7 @@ export const dataTwo = [
         name: 'радость встречи',
         price: 4500.00,
         category: 'chamomile', 
-        image: require('./images/bouquets/3.jpg'),
+        image: [require('./images/bouquets/3.jpg'),'https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Ромашка (сорт Мэй Куин). Высота букета 50-70 см' 
     },
@@ -110,7 +110,7 @@ export const dataTwo = [
         name: 'эйфория',
         price: 9500.00,
         category: 'mix', 
-        image: 'https://i.pinimg.com/originals/8e/96/15/8e961513a414cbf97177ce7b027a108f.png',
+        image: ['https://i.pinimg.com/originals/8e/96/15/8e961513a414cbf97177ce7b027a108f.png','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -119,7 +119,7 @@ export const dataTwo = [
         name: 'лунная радуга',
         price: 6500.00,
         category: 'chrysanthemums', 
-        image: 'https://odin-buket.ru/thumb/2/VmcfOZVNH7z0qbccN_lZIg/r/d/dim_96582.jpg',
+        image: ['https://odin-buket.ru/thumb/2/VmcfOZVNH7z0qbccN_lZIg/r/d/dim_96582.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Хризантема (сорт Delano). Высота букета 70-90 см' 
     },
@@ -128,7 +128,7 @@ export const dataTwo = [
         name: 'прекрасный сон',
         price: 12500.00,
         category: 'mix', 
-        image: 'https://i.pinimg.com/originals/8e/96/15/8e961513a414cbf97177ce7b027a108f.png',
+        image: ['https://static.tildacdn.com/tild3264-6462-4464-b836-383561366531/_7__120___3__150__3_.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -137,7 +137,7 @@ export const dataTwo = [
         name: 'цикламен',
         price: 1500.00,
         category: 'indoor', 
-        image: 'https://parnikpodsneznik.ru/wp-content/uploads/cziklamen-1.jpg',
+        image: ['https://parnikpodsneznik.ru/wp-content/uploads/cziklamen-1.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Цикламен' 
     },
@@ -146,7 +146,7 @@ export const dataTwo = [
         name: 'цветочный вальс',
         price: 10500.00,
         category: 'chrysanthemums', 
-        image: 'https://all-mongolia.ru/wp-content/uploads/1/c/9/1c9895651c193b33c53be4582941aacd.jpeg',
+        image: ['https://all-mongolia.ru/wp-content/uploads/1/c/9/1c9895651c193b33c53be4582941aacd.jpeg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Хризантема (сорт Delano). Высота букета 70-90 см' 
     },
@@ -155,7 +155,7 @@ export const dataTwo = [
         name: 'сентиментальность',
         price: 17500.00,
         category: 'roses', 
-        image: 'https://cdn.megaflowers.ru/upload/thumbs/500-600/da/83/da83e48b34595938c561af862cae2d4a.jpg',
+        image: ['https://cdn.megaflowers.ru/upload/thumbs/500-600/da/83/da83e48b34595938c561af862cae2d4a.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz). Высота букета 90-110 см' 
     },
@@ -164,7 +164,7 @@ export const dataTwo = [
         name: 'реверанс',
         price: 15200.00,
         category: 'popular', 
-        image: require('./images/bouquets/6.jpg'),
+        image: [require('./images/bouquets/6.jpg'),'https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -173,7 +173,7 @@ export const dataTwo = [
         name: 'незнакомка',
         price: 18500.00,
         category: 'mix', 
-        image: 'https://dmitrov.flor-world.ru/wa-data/public/shop/products/60/21/2160/images/7555/7555.750.jpg',
+        image: ['https://dmitrov.flor-world.ru/wa-data/public/shop/products/60/21/2160/images/7555/7555.750.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -182,7 +182,7 @@ export const dataTwo = [
         name: 'обещание любви',
         price: 4500.00,
         category: 'chrysanthemums', 
-        image: 'https://floristan.ru/storage/bouquets_images/rtJpLkV.jpeg',
+        image: ['https://floristan.ru/storage/bouquets_images/rtJpLkV.jpeg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Хризантема (сорт Delano). Высота букета 70-90 см' 
     },
@@ -191,7 +191,7 @@ export const dataTwo = [
         name: 'цветущий луг',
         price: 3700.00,
         category: 'chamomile', 
-        image: 'https://cvetokbrest.by/wp-content/uploads/2021/04/букет-из-ромашек-2-thegem-product-catalog.jpg',
+        image: ['https://cvetokbrest.by/wp-content/uploads/2021/04/букет-из-ромашек-2-thegem-product-catalog.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Ромашка (сорт Мэй Куин). Высота букета 50-70 см' 
     },
@@ -200,7 +200,7 @@ export const dataTwo = [
         name: 'притяжение',
         price: 14500.00,
         category: 'mix', 
-        image: 'https://mykaleidoscope.ru/uploads/posts/2021-10/thumbs/1635295023_10-mykaleidoscope-ru-p-buketnaya-orkhideya-tsveti-10.jpg',
+        image: ['https://mykaleidoscope.ru/uploads/posts/2021-10/thumbs/1635295023_10-mykaleidoscope-ru-p-buketnaya-orkhideya-tsveti-10.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -209,7 +209,7 @@ export const dataTwo = [
         name: 'русская роскошь',
         price: 3500.00,
         category: 'chamomile', 
-        image: 'https://krot.info/uploads/posts/2022-02/thumbs/1645785896_57-krot-info-p-zheltie-romashki-buket-tsveti-krasivo-foto-61.jpg',
+        image: ['https://krot.info/uploads/posts/2022-02/thumbs/1645785896_57-krot-info-p-zheltie-romashki-buket-tsveti-krasivo-foto-61.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Ромашка (сорт Мэй Куин). Высота букета 50-70 см' 
     },
@@ -218,7 +218,7 @@ export const dataTwo = [
         name: 'спатифиллум',
         price: 1500.00,
         category: 'indoor', 
-        image: 'https://floristcenter.ru/image/cache/catalog/vgorshkah/Spatifillum9-543x543.jpg',
+        image: ['https://floristcenter.ru/image/cache/catalog/vgorshkah/Spatifillum9-543x543.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: спатифиллум' 
     },
@@ -227,7 +227,7 @@ export const dataTwo = [
         name: 'иноземка',
         price: 12500.00,
         category: 'roses', 
-        image: 'https://flordoranzh.ru/wp-content/uploads/2017/11/1502545568_24113957.jpg',
+        image: ['https://flordoranzh.ru/wp-content/uploads/2017/11/1502545568_24113957.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz). Высота букета 90-110 см' 
     },
@@ -236,7 +236,7 @@ export const dataTwo = [
         name: 'бохо',
         price: 7500.00,
         category: 'dried', 
-        image: 'https://sun9-79.userapi.com/impg/zQlMFluMLdcsy-bNcpP2pSaHIO8BID69N7iGWg/eeeYVLhAY-g.jpg?size=483x604&quality=96&sign=51277b1cfba67c1d60352f7a6e6668e3&type=album',
+        image: ['https://sun9-79.userapi.com/impg/zQlMFluMLdcsy-bNcpP2pSaHIO8BID69N7iGWg/eeeYVLhAY-g.jpg?size=483x604&quality=96&sign=51277b1cfba67c1d60352f7a6e6668e3&type=album','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Гомфрена, Нигелла, Физалис' 
     },
@@ -245,7 +245,7 @@ export const dataTwo = [
         name: 'роза',
         price: 1700.00,
         category: 'indoor', 
-        image: 'https://sunflor.ru/wa-data/public/shop/products/57/04/457/images/7262/7262.750x0.jpg',
+        image: ['https://sunflor.ru/wa-data/public/shop/products/57/04/457/images/7262/7262.750x0.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза' 
     },
@@ -254,7 +254,7 @@ export const dataTwo = [
         name: 'осенняя элегия',
         price: 15500.00,
         category: 'popular', 
-        image: require('./images/bouquets/2.jpg'),
+        image: [require('./images/bouquets/2.jpg'),'https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -263,7 +263,7 @@ export const dataTwo = [
         name: 'соблазн',
         price: 18500.00,
         category: 'mix', 
-        image: 'https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkEXEnxJd4iwwDFqdQ0EvriaaKTM5SRkZCeTgDn6uOyic',
+        image: ['https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkEXEnxJd4iwwDFqdQ0EvriaaKTM5SRkZCeTgDn6uOyic', 'https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -272,7 +272,7 @@ export const dataTwo = [
         name: 'парижский шик',
         price: 4500.00,
         category: 'dried', 
-        image: 'https://krot.info/uploads/posts/2021-11/thumbs/1636666406_142-krot-info-p-svadebnii-buket-iz-sukhotsvetov-krasivie-o-146.jpg',
+        image: ['https://krot.info/uploads/posts/2021-11/thumbs/1636666406_142-krot-info-p-svadebnii-buket-iz-sukhotsvetov-krasivie-o-146.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Гомфрена, Нигелла, Физалис' 
     },
@@ -281,7 +281,7 @@ export const dataTwo = [
         name: 'пояс венеры',
         price: 8500.00,
         category: 'roses', 
-        image: 'https://cdn.megaflowers.ru/upload/thumbs/500-600/da/83/da83e48b34595938c561af862cae2d4a.jpg',
+        image: ['https://veldkampsflowers.imgix.net/images/itemVariation/36YellowRoses14020945323.jpg?w=120&h=145&fit=crop&auto=format&dpr=3','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz). Высота букета 90-110 см' 
     },
@@ -290,7 +290,7 @@ export const dataTwo = [
         name: 'гардения',
         price: 2500.00,
         category: 'indoor', 
-        image: 'https://sunflor.ru/wa-data/public/shop/products/53/00/53/images/7094/7094.600x0.jpg',
+        image: ['https://sunflor.ru/wa-data/public/shop/products/53/00/53/images/7094/7094.600x0.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: гардения' 
     },
@@ -299,7 +299,7 @@ export const dataTwo = [
         name: 'эйфория',
         price: 16500.00,
         category: 'popular', 
-        image: require('./images/bouquets/5.jpg'),
+        image: [require('./images/bouquets/5.jpg'),'https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     },
@@ -308,7 +308,7 @@ export const dataTwo = [
         name: 'принцесса сердца',
         price: 17500.00,
         category: 'mix', 
-        image: 'https://flowershopcats.ru/d/korzina_s_antirinumom.jpg',
+        image: ['https://flowershopcats.ru/d/korzina_s_antirinumom.jpg','https://img1.liveinternet.ru/images/attach/c/0/120/837/120837353_otkritkas8marta598.jpg', 'https://morecvetoff.ru/image/cache/356-419/data/products/kompozicii/kompzicii_iz_cvetov/040.jpg'],
         showMore: false,
         description: 'Состав: Роза (сорт Flammentanz), Роза (сорт Jacques Cartier), Лилия,  Берграс' 
     }
