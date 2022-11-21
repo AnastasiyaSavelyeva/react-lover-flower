@@ -1,4 +1,4 @@
-import { dataTwo } from "./data";
+// import { dataTwo } from "./data";
 
 function Buttons({anyWord}) {
     return(
